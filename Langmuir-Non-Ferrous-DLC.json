@@ -1,0 +1,455 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "description": "0.125\" 2 Flute Flat End Mill",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 0.8,
+                "LCF": 0.5,
+                "NOF": 2,
+                "OAL": 1.552999999999999,
+                "SFDM": 0.125,
+                "shoulder-length": 0.8
+            },
+            "guid": "349e7f49-aedf-45ea-92a4-031a7f311eea",
+            "holder": {
+                "description": "Langmuir Collet",
+                "guid": "6ebebcfb-863a-4d81-8fa6-415b3f0d36e8",
+                "last_modified": 1671726303252,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 1.5,
+                        "lower-diameter": 1.328,
+                        "upper-diameter": 1.328
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "LSEM-2FL125-500SQ-VAR",
+            "product-link": "https://www.langmuirsystems.com/mr1/build#MR1-NF-EM-1-8",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.00125,
+                        "f_z": 0.001875,
+                        "guid": "84cc5df9-c2b0-4d29-94a6-0cb67f447161",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Clearing, Pocketing, Roughing",
+                        "stepdown": 0.125,
+                        "stepover": 0.03,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 261.7993877991495,
+                        "v_f": 30.00000000000001,
+                        "v_f_leadIn": 30.00000000000001,
+                        "v_f_leadOut": 30.00000000000001,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 13.333333333333336
+                    },
+                    {
+                        "f_n": 0.00125,
+                        "f_z": 0.001875,
+                        "guid": "fc973e32-6557-41cd-b58c-8f5cc6be44f3",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Rough Facing",
+                        "stepdown": 0.03,
+                        "stepover": 0.07,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 261.7993877991495,
+                        "v_f": 30.00000000000001,
+                        "v_f_leadIn": 30.00000000000001,
+                        "v_f_leadOut": 30.00000000000001,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 13.333333333333336
+                    },
+                    {
+                        "f_n": 0.00125,
+                        "f_z": 0.00125,
+                        "guid": "12e9e18b-a29b-45ab-8f1b-40c9c255a8dc",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Finishing",
+                        "stepdown": 0.5,
+                        "stepover": 0.005,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 261.7993877991495,
+                        "v_f": 20.000000000000018,
+                        "v_f_leadIn": 20.000000000000018,
+                        "v_f_leadOut": 20.000000000000018,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 13.333333333333336
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Langmuir Systems"
+        },
+        {
+            "description": "Langmuir ER20 Collet Holder",
+            "guid": "6ebebcfb-863a-4d81-8fa6-415b3f0d36e8",
+            "product-id": "",
+            "product-link": "",
+            "segments": [
+                {
+                    "height": 1.5,
+                    "lower-diameter": 1.328,
+                    "upper-diameter": 1.328
+                }
+            ],
+            "type": "holder",
+            "unit": "inches",
+            "vendor": "Langmuir Systems"
+        },
+        {
+            "BMC": "carbide",
+            "description": "0.25\" 2 Flute Flat End Mill",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 2.518,
+                "SFDM": 0.25,
+                "shoulder-length": 1.5
+            },
+            "guid": "2e5331dd-9ef6-4fee-bdd7-429c11fe4982",
+            "holder": {
+                "description": "Langmuir ER20 Collet Holder",
+                "guid": "6ebebcfb-863a-4d81-8fa6-415b3f0d36e8",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1.5,
+                        "lower-diameter": 1.328,
+                        "upper-diameter": 1.328
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Langmuir Systems"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "LSEM-2FL250-750SQ-VAR",
+            "product-link": "https://www.langmuirsystems.com/mr1/build#MR1-NF-EM-1-4",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.0015,
+                        "f_z": 0.003125,
+                        "guid": "84cc5df9-c2b0-4d29-94a6-0cb67f447161",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Clearing, Pocketing, Roughing",
+                        "stepdown": 0.25,
+                        "stepover": 0.05,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 523.598775598299,
+                        "v_f": 50.00000000000002,
+                        "v_f_leadIn": 50.00000000000002,
+                        "v_f_leadOut": 50.00000000000002,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 40
+                    },
+                    {
+                        "f_n": 0.0015,
+                        "f_z": 0.003125,
+                        "guid": "ed84fb49-7216-4877-8dd9-462da5eec3e4",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Rough Facing",
+                        "stepdown": 0.05,
+                        "stepover": 0.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 523.598775598299,
+                        "v_f": 50.00000000000002,
+                        "v_f_leadIn": 50.00000000000002,
+                        "v_f_leadOut": 50.00000000000002,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 15.000000000000004
+                    },
+                    {
+                        "f_n": 0.0015,
+                        "f_z": 0.0021875,
+                        "guid": "1cc185f3-1d59-4635-983b-500828285220",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Finishing",
+                        "stepdown": 0.75,
+                        "stepover": 0.005,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 523.598775598299,
+                        "v_f": 35,
+                        "v_f_leadIn": 35,
+                        "v_f_leadOut": 35,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 15.000000000000004
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Langmuir Systems"
+        },
+        {
+            "BMC": "carbide",
+            "description": "0.375\" 2 Flute Flat End Mill",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.375,
+                "HAND": true,
+                "LB": 1.65,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.51,
+                "SFDM": 0.375,
+                "shoulder-length": 1.65
+            },
+            "guid": "ce08f905-7503-4b3c-a541-138357bd899c",
+            "holder": {
+                "description": "Langmuir ER20 Collet Holder",
+                "guid": "6ebebcfb-863a-4d81-8fa6-415b3f0d36e8",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1.5,
+                        "lower-diameter": 1.328,
+                        "upper-diameter": 1.328
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Langmuir Systems"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "LSEM-2FL375-1000SQ-VAR",
+            "product-link": "https://www.langmuirsystems.com/mr1/build#MR1-NF-EM-3-8",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.001875,
+                        "f_z": 0.0046875,
+                        "guid": "84cc5df9-c2b0-4d29-94a6-0cb67f447161",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Clearing, Pocketing, Roughing",
+                        "stepdown": 0.375,
+                        "stepover": 0.05,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 785.3981633974483,
+                        "v_f": 74.99999999999999,
+                        "v_f_leadIn": 74.99999999999999,
+                        "v_f_leadOut": 74.99999999999999,
+                        "v_f_plunge": 15.000000000000004,
+                        "v_f_ramp": 40
+                    },
+                    {
+                        "f_n": 0.0015,
+                        "f_z": 0.0046875,
+                        "guid": "ed84fb49-7216-4877-8dd9-462da5eec3e4",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Rough Facing",
+                        "stepdown": 0.06,
+                        "stepover": 0.32,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 785.3981633974483,
+                        "v_f": 74.99999999999999,
+                        "v_f_leadIn": 74.99999999999999,
+                        "v_f_leadOut": 74.99999999999999,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 15.000000000000004
+                    },
+                    {
+                        "f_n": 0.0015,
+                        "f_z": 0.0021875,
+                        "guid": "1cc185f3-1d59-4635-983b-500828285220",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Finishing",
+                        "stepdown": 1,
+                        "stepover": 0.005,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 785.3981633974483,
+                        "v_f": 35,
+                        "v_f_leadIn": 35,
+                        "v_f_leadOut": 35,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 15.000000000000004
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Langmuir Systems"
+        },
+        {
+            "BMC": "carbide",
+            "description": "0.5\" 2 Flute Flat End Mill",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.5,
+                "HAND": true,
+                "LB": 1.85,
+                "LCF": 1.25,
+                "NOF": 2,
+                "OAL": 3,
+                "SFDM": 0.5,
+                "shoulder-length": 1.85
+            },
+            "guid": "a624bd8c-f294-43bc-ab68-43f004b2a5b6",
+            "holder": {
+                "description": "Langmuir ER20 Collet Holder",
+                "guid": "6ebebcfb-863a-4d81-8fa6-415b3f0d36e8",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1.5,
+                        "lower-diameter": 1.328,
+                        "upper-diameter": 1.328
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Langmuir Systems"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "LSEM-2FL500-1250SQ-VAR",
+            "product-link": "https://www.langmuirsystems.com/mr1/build#MR1-NF-EM-1-2",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.001875,
+                        "f_z": 0.0046875,
+                        "guid": "84cc5df9-c2b0-4d29-94a6-0cb67f447161",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Clearing, Pocketing, Roughing",
+                        "stepdown": 0.5,
+                        "stepover": 0.05,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1047.1975511965982,
+                        "v_f": 74.99999999999999,
+                        "v_f_leadIn": 74.99999999999999,
+                        "v_f_leadOut": 74.99999999999999,
+                        "v_f_plunge": 15.000000000000004,
+                        "v_f_ramp": 40
+                    },
+                    {
+                        "f_n": 0.0015,
+                        "f_z": 0.0046875,
+                        "guid": "ed84fb49-7216-4877-8dd9-462da5eec3e4",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Rough Facing",
+                        "stepdown": 0.06,
+                        "stepover": 0.45,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1047.1975511965982,
+                        "v_f": 74.99999999999999,
+                        "v_f_leadIn": 74.99999999999999,
+                        "v_f_leadOut": 74.99999999999999,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 15.000000000000004
+                    },
+                    {
+                        "f_n": 0.0015,
+                        "f_z": 0.0021875,
+                        "guid": "1cc185f3-1d59-4635-983b-500828285220",
+                        "n": 8000.000000000002,
+                        "n_ramp": 8000.000000000002,
+                        "name": "Finishing",
+                        "stepdown": 1.25,
+                        "stepover": 0.005,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1047.1975511965982,
+                        "v_f": 35,
+                        "v_f_leadIn": 35,
+                        "v_f_leadOut": 35,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 15.000000000000004
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Langmuir Systems"
+        }
+    ],
+    "version": 18
+}
