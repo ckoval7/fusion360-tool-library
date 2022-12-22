@@ -1,0 +1,97 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Langmuir Fly Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 2.2,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.125,
+                "NOF": 1,
+                "OAL": 2,
+                "RE": 0,
+                "SFDM": 0.5,
+                "TA": 0,
+                "shoulder-length": 1.5
+            },
+            "guid": "ff773f7a-24e7-4826-877c-def0d85e50cc",
+            "holder": {
+                "description": "Langmuir ER20 Collet Holder",
+                "guid": "6ebebcfb-863a-4d81-8fa6-415b3f0d36e8",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1.5,
+                        "lower-diameter": 1.328,
+                        "upper-diameter": 1.328
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Langmuir Systems"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "https://www.langmuirsystems.com/mr1/build#MR1-FLYCUTTER",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.003333333333333,
+                        "f_z": 0.008,
+                        "guid": "dbaf911c-26ad-4ba9-b1b9-53b42204fecf",
+                        "n": 1500,
+                        "n_ramp": 1500,
+                        "name": "Finish Facing",
+                        "stepdown": 0.005,
+                        "stepover": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 863.937979737193,
+                        "v_f": 11.999999999999998,
+                        "v_f_leadIn": 11.999999999999998,
+                        "v_f_leadOut": 11.999999999999998,
+                        "v_f_plunge": 5,
+                        "v_f_ramp": 13.333333333333336
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "inches",
+            "vendor": "Langmuir"
+        },
+        {
+            "description": "Langmuir ER20 Collet Holder",
+            "guid": "15d0a34a-02a3-411c-8507-b830721d2929",
+            "last_modified": 1671734144346,
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "5279f9ef-5314-4e50-96b2-0646648c426a",
+            "segments": [
+                {
+                    "height": 1.5,
+                    "lower-diameter": 1.328,
+                    "upper-diameter": 1.328
+                }
+            ],
+            "type": "holder",
+            "unit": "inches",
+            "vendor": "Langmuir Systems"
+        }
+    ],
+    "version": 18
+}
